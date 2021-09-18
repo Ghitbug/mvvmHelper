@@ -1,0 +1,19 @@
+package $modelName;
+import android.app.Application;
+import $repositoryName.$nameRepository;
+import androidx.annotation.NonNull;
+import com.gh.comm.library.live.BaseViewModel;
+import com.gh.comm.library.live.RxResult;
+import com.gh.comm.library.live.interfaces.CallBack;
+import com.gh.lib.net.exception.ApiException;
+
+/**
+ *@time  $date
+ */
+public class  $nameViewModel extends BaseViewModel<$nameRepository> {
+    public $nameViewModel(@NonNull Application application) {
+        super(application);
+    }
+
+
+}

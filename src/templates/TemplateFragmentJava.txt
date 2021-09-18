@@ -1,0 +1,20 @@
+package $fragmentName;
+import  com.gh.mylibrary.ui.BaseMFragment;
+import  $importModel;
+import  $packagename.R;
+/**
+ *
+ *@time  $date
+ *
+ */
+public class $nameFragment extends BaseMFragment<$baseModel> {
+    @Override
+    public int setCreatedLayoutViewId() {
+        return $layoutId;
+    }
+
+    @Override
+    protected void initView() {
+        super.initView();
+    }
+}

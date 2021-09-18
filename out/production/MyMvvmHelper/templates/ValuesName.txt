@@ -1,0 +1,12 @@
+$packagename
+$modelName
+$name
+$repositoryName
+
+import com.gh.comm.library.live.BaseViewModel;
+import  $modelName.$nameModel
+
+import $importModel
+
+$nameModel
+

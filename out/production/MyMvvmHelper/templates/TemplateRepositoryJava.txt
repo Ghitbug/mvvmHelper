@@ -1,0 +1,11 @@
+package $repositoryName;
+import com.alibaba.fastjson.JSONObject;
+import com.gh.comm.library.live.BaseRepository;
+import com.gh.comm.library.live.interfaces.CallBack;
+
+/**
+ *@time  $date
+ */
+public class $nameRepository extends BaseRepository {
+
+}

@@ -1,0 +1,18 @@
+package $fragmentName
+import  com.gh.mylibrary.ui.BaseMFragment;
+import  $importModel
+import  $packagename.R
+/**
+ *
+ *@time  $date
+ *
+ */
+class  $nameFragment : BaseMFragment<$baseModel>() {
+
+    override fun setCreatedLayoutViewId(): Int {
+        return $layoutId
+    }
+     override fun initView() {
+         super.initView()
+     }
+}

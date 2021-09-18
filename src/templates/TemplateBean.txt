@@ -1,0 +1,9 @@
+package $beanName;
+/**
+ *
+ * @time $date
+ */
+public class  $nameBean  {
+
+
+}

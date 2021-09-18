@@ -1,0 +1,14 @@
+package $modelName
+import android.app.Application
+import $repositoryName.$nameRepository
+import com.gh.comm.library.live.BaseViewModel
+import com.gh.comm.library.live.RxResult
+import com.gh.comm.library.live.interfaces.CallBack
+import com.gh.lib.net.exception.ApiException
+
+/**
+ *@time  $date
+ */
+class $nameViewModel (application: Application) : BaseViewModel<$nameRepository>(application) {
+
+}
