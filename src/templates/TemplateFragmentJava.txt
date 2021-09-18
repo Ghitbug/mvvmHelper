@@ -8,6 +8,7 @@ import  $packagename.R;
  *
  */
 public class $nameFragment extends BaseMFragment<$baseModel> {
+
     @Override
     public int setCreatedLayoutViewId() {
         return $layoutId;

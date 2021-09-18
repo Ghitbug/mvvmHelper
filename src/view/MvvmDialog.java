@@ -216,7 +216,6 @@ public class MvvmDialog extends JDialog implements ActionListener {
         if ("取消".equals(e.getActionCommand())) {
             this.dispose();
         } else {
-
             this.dispose();
             LinkedHashMap<String, Boolean> map = new LinkedHashMap();
             for (String key : checkRadioBtn.keySet()) {
