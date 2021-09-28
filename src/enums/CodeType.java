@@ -1,7 +1,7 @@
 package enums;
 
 public enum CodeType {
-    ACTIVITY("ACTIVITY", "ui.activitys", "TemplateActivity", "Fragment.kt"),
+    ACTIVITY("ACTIVITY", "ui.activitys", "TemplateActivity", "Activity.kt"),
     FRAGMENT("FRAGMENT", "ui.fragments", "TemplateFragment", "Fragment.kt"),
     VIEWMODEL("VIEWMODEL", "mvvm.model", "TemplateViewModel", "ViewModel.kt"),
     REPOSITORY("REPOSITORY", "mvvm.repository", "TemplateRepository", "Repository.kt"),
